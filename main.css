@@ -1,0 +1,205 @@
+/* GLOBALES */
+.pagina{
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 31px 0px 31px 0px;
+}
+
+/* CABECERA */
+.head{
+    height: 525px;
+    position: relative;
+    font-weight: bold;
+}
+.head img{
+    width: 100%;
+}
+
+.head h1{
+    font-size: 64px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+.head h2{
+    position: absolute;
+    background-color: rgba(114, 153, 254, 0.5);
+    border-radius: 8px;
+    width: 350px;
+    padding: 10px 30px 10px 30px;
+    left: 80px;
+    top: 300px;
+    font-size: 36px;
+}
+
+/* SOBRE MI */
+.about_me{
+    background-color: #7299FE;
+    color: white;
+    height: 350px;
+}
+
+.about_me h2{
+    color: #1D06A7;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.about_me p{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.about_me a{
+    background-color: #D16FFF;
+    width: 167px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b3b3b3;
+    margin-left: 35px;
+}
+
+/* MIS SKILLS */
+.my_skills{
+    background-color: #9022FF;
+    height: 424px;
+}
+
+.my_skills .skill{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 10%;
+}
+
+.my_skills h2{
+    color: #26CC4B;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.my_skills h3{
+    margin-left: 10px;
+}
+
+.my_skills div{
+    flex-grow: 90%;
+    margin-bottom: 10px;
+}
+
+.b_white{
+    width: 360px;
+    height: 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.b_light-blue{
+    width: 50%;
+    height: 15px;
+    background-color: turquoise;
+    border-radius: 5px;
+}
+
+/* PORTAFOLIO */
+.briefcase{
+    background-color: #FFD233;
+    padding: 20px;
+    text-align: center;
+}
+
+.briefcase div{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.briefcase h2{
+    color: #00AD84;
+}
+
+/* CLIENTES */
+.customers{
+    background-color: #3F4E62;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    height: 258px;
+}
+
+.customers h2{
+    color: #ADFF28;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.customers div{
+    display: flex;
+}
+
+/* CONTACTO */
+.contacts{
+    background-color: #1687A0;
+    text-align: center;
+}
+
+.contacts h2{
+    color: #FF1B1B;
+    padding: 20px;
+}
+
+.contacts input{
+    padding: 20px;
+    width: 30%;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.contacts textarea{
+    width: 71%;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.contacts .btn_enviar{
+    background-color: #233451;
+    border: 1px solid #233451;
+    width: 20%;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+/* VALIDACIONES */
+input:focus:invalid,
+textarea:focus:invalid{
+    border: 2px solid red;
+    color: red;
+    outline: none;
+}
